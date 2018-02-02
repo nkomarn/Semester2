@@ -16,16 +16,32 @@ namespace pltw1._5._3
         {
             InitializeComponent();
             button1.MouseClick += new MouseEventHandler(searchBox);
+            button2.MouseClick += new MouseEventHandler(backward);
+            button3.MouseClick += new MouseEventHandler(forward);
+            button4.MouseClick += new MouseEventHandler(home);
+            
         }
         
         public void searchBox(object sender, MouseEventArgs e) {
-            //Uri search = new Uri(textBox1.Text);
-            //webBrowser1.Url = search;
-            webBrowser1.Navigate("http://www.google.com");
-            //HtmlDocument doc = webBrowser1.Document;
-            //HtmlElement elem = doc.GetElementById("q");
+            string url = textBox1.Text.Trim();
+            webBrowser1.Navigate(url);
             
         }
-
+        public void forward(object sender, MouseEventArgs e) {
+            if (webBrowser1.CanGoForward) {
+                webBrowser1.GoForward();
+            }
+        }
+        public void backward(object sender, MouseEventArgs e)
+        {
+            if (webBrowser1.CanGoBack)
+            {
+                webBrowser1.GoBack();
+            }
+        }
+        public void home(object sender, MouseEventArgs e)
+        {
+            webBrowser1.GoHome();
+        }
     }
 }
