@@ -1,0 +1,10 @@
+C:\Users\519-p5\source\repos\PLTW1.5.4\PLTW1.5.4\bin\Debug\PLTW1.5.4.exe.config
+C:\Users\519-p5\source\repos\PLTW1.5.4\PLTW1.5.4\bin\Debug\PLTW1.5.4.exe
+C:\Users\519-p5\source\repos\PLTW1.5.4\PLTW1.5.4\bin\Debug\PLTW1.5.4.pdb
+C:\Users\519-p5\source\repos\PLTW1.5.4\PLTW1.5.4\obj\Debug\PLTW1.5.4.csprojResolveAssemblyReference.cache
+C:\Users\519-p5\source\repos\PLTW1.5.4\PLTW1.5.4\obj\Debug\PLTW1._5._4.Form1.resources
+C:\Users\519-p5\source\repos\PLTW1.5.4\PLTW1.5.4\obj\Debug\PLTW1._5._4.Properties.Resources.resources
+C:\Users\519-p5\source\repos\PLTW1.5.4\PLTW1.5.4\obj\Debug\PLTW1.5.4.csproj.GenerateResource.Cache
+C:\Users\519-p5\source\repos\PLTW1.5.4\PLTW1.5.4\obj\Debug\PLTW1.5.4.csproj.CoreCompileInputs.cache
+C:\Users\519-p5\source\repos\PLTW1.5.4\PLTW1.5.4\obj\Debug\PLTW1.5.4.exe
+C:\Users\519-p5\source\repos\PLTW1.5.4\PLTW1.5.4\obj\Debug\PLTW1.5.4.pdb
