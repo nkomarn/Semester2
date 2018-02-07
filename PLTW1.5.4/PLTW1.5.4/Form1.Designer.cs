@@ -146,7 +146,7 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Silver;
+            this.pictureBox9.BackColor = System.Drawing.Color.White;
             this.pictureBox9.Location = new System.Drawing.Point(726, 459);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(16, 15);
@@ -157,7 +157,7 @@
             // 
             // pictureBox10
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Silver;
+            this.pictureBox10.BackColor = System.Drawing.Color.White;
             this.pictureBox10.Location = new System.Drawing.Point(726, 480);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(16, 15);
@@ -168,7 +168,7 @@
             // 
             // pictureBox11
             // 
-            this.pictureBox11.BackColor = System.Drawing.Color.Silver;
+            this.pictureBox11.BackColor = System.Drawing.Color.White;
             this.pictureBox11.Location = new System.Drawing.Point(726, 498);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(16, 15);
@@ -179,7 +179,7 @@
             // 
             // pictureBox12
             // 
-            this.pictureBox12.BackColor = System.Drawing.Color.Silver;
+            this.pictureBox12.BackColor = System.Drawing.Color.White;
             this.pictureBox12.Location = new System.Drawing.Point(726, 519);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(16, 15);
@@ -190,7 +190,7 @@
             // 
             // pictureBox13
             // 
-            this.pictureBox13.BackColor = System.Drawing.Color.Silver;
+            this.pictureBox13.BackColor = System.Drawing.Color.White;
             this.pictureBox13.Location = new System.Drawing.Point(726, 546);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(16, 15);
