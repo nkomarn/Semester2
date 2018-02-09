@@ -73,9 +73,409 @@ namespace PLTW1._5._4.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bean {
+            get {
+                object obj = ResourceManager.GetObject("Bean", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BeanFilled {
+            get {
+                object obj = ResourceManager.GetObject("BeanFilled", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BoxClicked {
+            get {
+                object obj = ResourceManager.GetObject("BoxClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BucketClicked {
+            get {
+                object obj = ResourceManager.GetObject("BucketClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CanClicked {
+            get {
+                object obj = ResourceManager.GetObject("CanClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Check {
             get {
                 object obj = ResourceManager.GetObject("Check", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CircleClicked {
+            get {
+                object obj = ResourceManager.GetObject("CircleClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CropClicked {
+            get {
+                object obj = ResourceManager.GetObject("CropClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CustomClicked {
+            get {
+                object obj = ResourceManager.GetObject("CustomClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EraserClicked {
+            get {
+                object obj = ResourceManager.GetObject("EraserClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FilledBoxClicked {
+            get {
+                object obj = ResourceManager.GetObject("FilledBoxClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FilledCircleClicked {
+            get {
+                object obj = ResourceManager.GetObject("FilledCircleClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FilledCustomClicked {
+            get {
+                object obj = ResourceManager.GetObject("FilledCustomClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FilledOvalClicked {
+            get {
+                object obj = ResourceManager.GetObject("FilledOvalClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HandClicked {
+            get {
+                object obj = ResourceManager.GetObject("HandClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_0cCJ3GYWb6u8 {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_0cCJ3GYWb6u8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_0zEcR5EqlWP {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_0zEcR5EqlWP", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_5WsYnTu20mjMjCBs {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_5WsYnTu20mjMjCBs", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_9QaajIWdcDfsVT {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_9QaajIWdcDfsVT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_DvqHg3Ncwu9ei9 {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_DvqHg3Ncwu9ei9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_frfovbkMHasI {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_frfovbkMHasI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_hIqb3z2TJSd1kx8y {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_hIqb3z2TJSd1kx8y", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_iHack40vjznk {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_iHack40vjznk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_JjMkjGaB0az {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_JjMkjGaB0az", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_JwhLhqZA3T {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_JwhLhqZA3T", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_lBPW3W0edHw4Gv {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_lBPW3W0edHw4Gv", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_nDa2SSMU6F9SQR7B {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_nDa2SSMU6F9SQR7B", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_NPLUXucTgcW {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_NPLUXucTgcW", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_pr6Os4WIqSgjr8S {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_pr6Os4WIqSgjr8S", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_q9FAd0VAHhxo {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_q9FAd0VAHhxo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_QaLfwWehAAaXD9g {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_QaLfwWehAAaXD9g", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_uYFgu4Owoz7e {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_uYFgu4Owoz7e", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_xWCsaa21ZwTl3nk {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_xWCsaa21ZwTl3nk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_znyOwKf0cuE {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_znyOwKf0cuE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Negative_zYEv7SvBR4Fd {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Negative_zYEv7SvBR4Fd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LineClicked {
+            get {
+                object obj = ResourceManager.GetObject("LineClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OvalClicked {
+            get {
+                object obj = ResourceManager.GetObject("OvalClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PencilClicked {
+            get {
+                object obj = ResourceManager.GetObject("PencilClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SelectionClicked {
+            get {
+                object obj = ResourceManager.GetObject("SelectionClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TextClicked {
+            get {
+                object obj = ResourceManager.GetObject("TextClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WideBrushClicked {
+            get {
+                object obj = ResourceManager.GetObject("WideBrushClicked", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

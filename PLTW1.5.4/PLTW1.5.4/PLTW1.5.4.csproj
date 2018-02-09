@@ -85,5 +85,125 @@
   <ItemGroup>
     <None Include="Resources\asfalt-light.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-0cCJ3GYWb6u8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-0zEcR5EqlWP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-5WsYnTu20mjMjCBs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-9QaajIWdcDfsVT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-DvqHg3Ncwu9ei9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-frfovbkMHasI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-hIqb3z2TJSd1kx8y.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-iHack40vjznk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-JwhLhqZA3T.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-lBPW3W0edHw4Gv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-nDa2SSMU6F9SQR7B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-pr6Os4WIqSgjr8S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-q9FAd0VAHhxo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-QaLfwWehAAaXD9g.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-uYFgu4Owoz7e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-xWCsaa21ZwTl3nk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-znyOwKf0cuE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-zYEv7SvBR4Fd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TextClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OvalClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PencilClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectionClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WideBrushClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CircleClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CropClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CustomClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EraserClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FilledBoxClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FilledCircleClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FilledCustomClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FilledOvalClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HandClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LineClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BoxClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BucketClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CanClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BeanFilled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bean.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-JjMkjGaB0az.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgonline-com-ua-Negative-NPLUXucTgcW.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
