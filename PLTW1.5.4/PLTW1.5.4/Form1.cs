@@ -35,8 +35,15 @@ namespace PLTW1._5._4
         {
             brush = new SolidBrush(colorBrush);
 
-            g.FillRectangle(brush, e.X, e.Y, 10, 10);
-            
+            if (square)
+            {
+                g.FillRectangle(brush, e.X, e.Y, value, value);
+            }
+            if (circle)
+            {
+                g.FillEllipse(brush, e.X, e.Y, value, value);
+            }
+
             draw = true;
 
         }
@@ -519,7 +526,7 @@ namespace PLTW1._5._4
             pictureBox32.Image = Whiteitem19;
             pictureBox33.Image = Whiteitem20;
             circle = true;
-            sqaue = false;
+            square = false;
         }
 
         private void pictureBox29_Click(object sender, EventArgs e)
