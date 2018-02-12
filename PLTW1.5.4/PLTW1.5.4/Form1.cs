@@ -15,7 +15,53 @@ namespace PLTW1._5._4
         public Form1()
         {
             InitializeComponent();
+            pictureBox2.MouseDown += new MouseEventHandler(pictureBox2_MouseDown);
+            pictureBox2.MouseUp += new MouseEventHandler(pictureBox2_MouseUp);
+            pictureBox2.MouseMove += new MouseEventHandler(pictureBox2_MouseMove);
+            g = pictureBox2.CreateGraphics();
+            pictureBox12.Image = check;
+            pictureBox21.Image = item8;
+            square = true;
+        }
+        Graphics g;
+        SolidBrush brush;
+        private bool draw;
+        bool square;
+        bool circle;
+        int value = 10;
+        private Color colorBrush = Color.Black;
+
+        private void pictureBox2_MouseDown(object sender, MouseEventArgs e)
+        {
+            brush = new SolidBrush(colorBrush);
+
+            g.FillRectangle(brush, e.X, e.Y, 10, 10);
             
+            draw = true;
+
+        }
+        private void pictureBox2_MouseUp(object sender, MouseEventArgs e)
+        {
+            draw = false;
+        }
+
+        private void pictureBox2_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (draw)
+            {
+
+
+                brush = new SolidBrush(colorBrush);
+                if (square)
+                {
+                    g.FillRectangle(brush, e.X, e.Y, value, value);
+                }
+                if (circle)
+                {
+                    g.FillEllipse(brush, e.X, e.Y, value, value);
+                }
+
+            }
         }
         Bitmap check = new Bitmap(Properties.Resources.Check);
         Bitmap clear = new Bitmap(Properties.Resources.asfalt_light);
@@ -35,6 +81,7 @@ namespace PLTW1._5._4
             this.pictureBox11.Image = clear;
             this.pictureBox12.Image = clear;
             this.pictureBox13.Image = clear;
+            value = 3;
         }
 
         private void pictureBox11_Click(object sender, EventArgs e)
@@ -44,6 +91,7 @@ namespace PLTW1._5._4
             this.pictureBox10.Image = clear;
             this.pictureBox12.Image = clear;
             this.pictureBox13.Image = clear;
+            value = 6;
         }
 
         private void pictureBox12_Click(object sender, EventArgs e)
@@ -53,6 +101,7 @@ namespace PLTW1._5._4
             this.pictureBox10.Image = clear;
             this.pictureBox11.Image = clear;
             this.pictureBox13.Image = clear;
+            value = 10;
         }
 
         private void pictureBox13_Click(object sender, EventArgs e)
@@ -62,7 +111,7 @@ namespace PLTW1._5._4
             this.pictureBox10.Image = clear;
             this.pictureBox11.Image = clear;
             this.pictureBox12.Image = clear;
-
+            value = 15;
         }
 
 
@@ -111,101 +160,486 @@ namespace PLTW1._5._4
         private void pictureBox14_Click(object sender, EventArgs e)
         {
             pictureBox14.Image = item1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox15_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = item2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox16_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = item3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox17_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = item4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox18_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = item5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox19_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = item6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox20_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = item7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox21_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = item8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
+            square = true;
         }
 
         private void pictureBox22_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = item9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox23_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = item10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox24_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = item11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
+            square = true;
+            circle = false;
         }
 
         private void pictureBox25_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = item12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox26_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = item13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox27_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = item14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox28_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = item15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
+            circle = true;
+            sqaue = false;
         }
 
         private void pictureBox29_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = item16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox30_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = item17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox31_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = item18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox32_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = item19;
+            pictureBox33.Image = Whiteitem20;
         }
 
         private void pictureBox33_Click(object sender, EventArgs e)
         {
-
+            pictureBox14.Image = Whiteitem1;
+            pictureBox15.Image = Whiteitem2;
+            pictureBox16.Image = Whiteitem3;
+            pictureBox17.Image = Whiteitem4;
+            pictureBox18.Image = Whiteitem5;
+            pictureBox19.Image = Whiteitem6;
+            pictureBox20.Image = Whiteitem7;
+            pictureBox21.Image = Whiteitem8;
+            pictureBox22.Image = Whiteitem9;
+            pictureBox23.Image = Whiteitem10;
+            pictureBox24.Image = Whiteitem11;
+            pictureBox25.Image = Whiteitem12;
+            pictureBox26.Image = Whiteitem13;
+            pictureBox27.Image = Whiteitem14;
+            pictureBox28.Image = Whiteitem15;
+            pictureBox29.Image = Whiteitem16;
+            pictureBox30.Image = Whiteitem17;
+            pictureBox31.Image = Whiteitem18;
+            pictureBox32.Image = Whiteitem19;
+            pictureBox33.Image = item20;
         }
     }
 }
