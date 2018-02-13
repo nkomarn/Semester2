@@ -205,5 +205,14 @@
   <ItemGroup>
     <None Include="Resources\imgonline-com-ua-Negative-NPLUXucTgcW.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TitleBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\192owr2u3z7drjpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\192owr2u3z7drjpg %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

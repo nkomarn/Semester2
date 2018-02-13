@@ -37,11 +37,11 @@ namespace PLTW1._5._4
 
             if (square)
             {
-                g.FillRectangle(brush, e.X, e.Y, value, value);
+                g.FillRectangle(brush, e.X - value/2, e.Y - value / 2, value, value);
             }
             if (circle)
             {
-                g.FillEllipse(brush, e.X, e.Y, value, value);
+                g.FillEllipse(brush, e.X - value / 2, e.Y - value / 2, value, value);
             }
 
             draw = true;
@@ -61,11 +61,11 @@ namespace PLTW1._5._4
                 brush = new SolidBrush(colorBrush);
                 if (square)
                 {
-                    g.FillRectangle(brush, e.X, e.Y, value, value);
+                    g.FillRectangle(brush, e.X - value / 2, e.Y - value / 2, value, value);
                 }
                 if (circle)
                 {
-                    g.FillEllipse(brush, e.X, e.Y, value, value);
+                    g.FillEllipse(brush, e.X - value / 2, e.Y - value / 2, value, value);
                 }
 
             }
@@ -355,6 +355,7 @@ namespace PLTW1._5._4
             pictureBox32.Image = Whiteitem19;
             pictureBox33.Image = Whiteitem20;
             square = true;
+            colorBrush = Color.Black;
         }
 
         private void pictureBox22_Click(object sender, EventArgs e)
@@ -403,6 +404,7 @@ namespace PLTW1._5._4
             pictureBox31.Image = Whiteitem18;
             pictureBox32.Image = Whiteitem19;
             pictureBox33.Image = Whiteitem20;
+            colorBrush = Color.White;
         }
 
         private void pictureBox24_Click(object sender, EventArgs e)
@@ -429,6 +431,7 @@ namespace PLTW1._5._4
             pictureBox33.Image = Whiteitem20;
             square = true;
             circle = false;
+            colorBrush = Color.Black;
         }
 
         private void pictureBox25_Click(object sender, EventArgs e)
@@ -527,6 +530,7 @@ namespace PLTW1._5._4
             pictureBox33.Image = Whiteitem20;
             circle = true;
             square = false;
+            colorBrush = Color.Black;
         }
 
         private void pictureBox29_Click(object sender, EventArgs e)
@@ -647,6 +651,11 @@ namespace PLTW1._5._4
             pictureBox31.Image = Whiteitem18;
             pictureBox32.Image = Whiteitem19;
             pictureBox33.Image = item20;
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            g.Clear(Color.White);
         }
     }
 }

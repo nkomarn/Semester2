@@ -63,6 +63,26 @@ namespace PLTW1._5._4.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _192owr2u3z7drjpg {
+            get {
+                object obj = ResourceManager.GetObject("_192owr2u3z7drjpg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _192owr2u3z7drjpg__1_ {
+            get {
+                object obj = ResourceManager.GetObject("_192owr2u3z7drjpg__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap asfalt_light {
             get {
                 object obj = ResourceManager.GetObject("asfalt_light", resourceCulture);
@@ -466,6 +486,16 @@ namespace PLTW1._5._4.Properties {
         internal static System.Drawing.Bitmap TextClicked {
             get {
                 object obj = ResourceManager.GetObject("TextClicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TitleBar {
+            get {
+                object obj = ResourceManager.GetObject("TitleBar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
