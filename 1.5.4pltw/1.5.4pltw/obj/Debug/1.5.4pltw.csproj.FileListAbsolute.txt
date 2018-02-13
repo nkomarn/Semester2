@@ -1,0 +1,10 @@
+C:\Users\519-p5\source\repos\1.5.4pltw\1.5.4pltw\bin\Debug\1.5.4pltw.exe.config
+C:\Users\519-p5\source\repos\1.5.4pltw\1.5.4pltw\bin\Debug\1.5.4pltw.exe
+C:\Users\519-p5\source\repos\1.5.4pltw\1.5.4pltw\bin\Debug\1.5.4pltw.pdb
+C:\Users\519-p5\source\repos\1.5.4pltw\1.5.4pltw\obj\Debug\1.5.4pltw.csprojResolveAssemblyReference.cache
+C:\Users\519-p5\source\repos\1.5.4pltw\1.5.4pltw\obj\Debug\_1._5._4pltw.Form1.resources
+C:\Users\519-p5\source\repos\1.5.4pltw\1.5.4pltw\obj\Debug\_1._5._4pltw.Properties.Resources.resources
+C:\Users\519-p5\source\repos\1.5.4pltw\1.5.4pltw\obj\Debug\1.5.4pltw.csproj.GenerateResource.Cache
+C:\Users\519-p5\source\repos\1.5.4pltw\1.5.4pltw\obj\Debug\1.5.4pltw.csproj.CoreCompileInputs.cache
+C:\Users\519-p5\source\repos\1.5.4pltw\1.5.4pltw\obj\Debug\1.5.4pltw.exe
+C:\Users\519-p5\source\repos\1.5.4pltw\1.5.4pltw\obj\Debug\1.5.4pltw.pdb
