@@ -1,0 +1,51 @@
+Hex --> Dec :
+This is how to convert hexadecimal to decimal manually. You must start by multiplying the hex number by 16. Which will be raised to a power that increases by 1 (the power at which the hexadecimal is raised starts at zero 0), by the hexadecimal number decimal equivalent. We start from the right of the hexadecimal number and go to the left when applying the powers. Each time you multiply a number by 16 the power of 16 increases. I know this might seen confusing that is why i will provide examples! When converting C9 hexadecimal to decimal your working should look something like this:
+Multiplication Result
+9 = 9 * (16 ^ 0) = 9
+C = 12 * (16 ^ 1) = 192
+We then add the results.
+192 + 9 = 20110 decimal.
+
+
+
+
+
+Dec --> Hex :
+To convert from decimal to hexadecimal you must divide the decimal number by 16 repeatedly. Then write the last remainder you obtained in the hex equivalent column. While doing so, if the remainder is more than nine remember to change it to its hex letter equivalent. The answer is taken from the last remainder obtained. Refer to diagram below as an example
+Divisor | Base Ten Number | Remainder | Hex Equivalent
+16              201                            
+16               12             9               9
+                  0            12               C
+The answer is C9
+
+
+
+
+
+Dec--> Bianary :
+To convert decimal to binary is also very simple, you simply divide the decimal value by 2 and then write down the remainder. Repeat this process until you cannot divide by 2 anymore, for example let's take the decimal value 157: 
+157 ÷ 2 = 78
+78 ÷ 2 = 39
+39 ÷ 2 = 19
+19 ÷ 2 = 9
+9 ÷ 2 = 4
+4 ÷ 2 = 2
+2 ÷ 2 = 1
+1 ÷ 2 = 0	with a remainder of 1
+with a remainder of 0
+with a remainder of 1
+with a remainder of 1
+with a remainder of 1
+with a remainder of 0
+with a remainder of 0
+with a remainder of 1	<--- to convert write this remainder first.
+Next, write down the value of the remainders from bottom to top (in other words write down the bottom remainder first and work your way up the list) which gives: 
+10011101 = 157
+
+
+
+
+
+Hex --> ACII :
+Take each hex digit separately and if the input digit is 0 through 9, then add 48 (decimal, or 30 hex) to the number to get the equivalent ascii representation of that digit. If the number is ‘a’ through ‘f’, then add 87 (or 57 hex) to the digit to get an ascii representation of ‘a’ through ‘f’.
+For example, if you have x’19b0', the ascii representation will be x’31 39 98 30', or the character representation of 19b0. Use 55 (or hex 37) if you prefer ‘A’ through ‘F’.
