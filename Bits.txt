@@ -1,0 +1,6 @@
+Data and Information:
+
+x-bit = 2^X
+y-bit = 2^y
+
+Result of using y-bit over x-bit: 2^(y-x)
