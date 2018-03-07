@@ -1,4 +1,4 @@
-ASCII --> base 128
+
 Hexadecimal --> base 16 (0-F (0-15))
 Decimal --> base 10 (0-9)
 Binary --> base 2 (0-1)
