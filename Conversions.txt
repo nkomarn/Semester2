@@ -4,7 +4,7 @@ Multiplication Result
 9 = 9 * (16 ^ 0) = 9
 C = 12 * (16 ^ 1) = 192
 We then add the results.
-192 + 9 = 20110 decimal.
+192 + 9 = 201 decimal.
 
 
 
