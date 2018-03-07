@@ -1,3 +1,11 @@
+Hexadecimal --> base 16
+Decimal --> base 10
+Binary --> base 2
+
+
+
+
+
 Hex --> Dec :
 This is how to convert hexadecimal to decimal manually. You must start by multiplying the hex number by 16. Which will be raised to a power that increases by 1 (the power at which the hexadecimal is raised starts at zero 0), by the hexadecimal number decimal equivalent. We start from the right of the hexadecimal number and go to the left when applying the powers. Each time you multiply a number by 16 the power of 16 increases. I know this might seen confusing that is why i will provide examples! When converting C9 hexadecimal to decimal your working should look something like this:
 Multiplication Result
