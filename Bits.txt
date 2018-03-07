@@ -4,3 +4,23 @@ x-bit = 2^X
 y-bit = 2^y
 
 Result of using y-bit over x-bit: 2^(y-x)
+
+
+Bit
+
+a "bit", like an atom, the smallest unit of storage
+A bit stores just a 0 or 1
+"In the computer it's all 0's and 1's" ... bits
+Anything with two separate states can store 1 bit 
+ -Nick's tennis racket example
+In a chip: electric charge = 0/1
+In a hard drive: spots of North/South magnetism = 0/1
+A bit is too small to be much use
+Group 8 bits together to make 1 byte
+
+
+Byte
+
+One byte = grouping of 8 bits
+e.g. 0 1 0 1 1 0 1 0
+One byte can store one character, e.g. 'A' or 'x' or '$'
