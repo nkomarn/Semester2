@@ -31,7 +31,7 @@ The answer is C9
 
 
 
-Dec--> Bianary :
+Dec --> Binary :
 To convert decimal to binary is also very simple, you simply divide the decimal value by 2 and then write down the remainder. Repeat this process until you cannot divide by 2 anymore, for example let's take the decimal value 157: 
 157 ÷ 2 = 78 with a remainder of 1
 78 ÷ 2 = 39 with a remainder of 0
@@ -48,7 +48,7 @@ Next, write down the value of the remainders from bottom to top (in other words 
 
 
 
-Hex --> ACII :
+Hex --> ASCII :
 Take each hex digit separately and if the input digit is 0 through 9, then add 48 (decimal, or 30 hex) to the number to get the equivalent ascii representation of that digit. If the number is ‘a’ through ‘f’, then add 87 (or 57 hex) to the digit to get an ascii representation of ‘a’ through ‘f’.
 For example, if you have x’19b0', the ascii representation will be x’31 39 98 30', or the character representation of 19b0. Use 55 (or hex 37) if you prefer ‘A’ through ‘F’.
 
