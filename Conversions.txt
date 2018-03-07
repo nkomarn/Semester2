@@ -58,3 +58,12 @@ Next, write down the value of the remainders from bottom to top (in other words 
 Hex --> ACII :
 Take each hex digit separately and if the input digit is 0 through 9, then add 48 (decimal, or 30 hex) to the number to get the equivalent ascii representation of that digit. If the number is ‘a’ through ‘f’, then add 87 (or 57 hex) to the digit to get an ascii representation of ‘a’ through ‘f’.
 For example, if you have x’19b0', the ascii representation will be x’31 39 98 30', or the character representation of 19b0. Use 55 (or hex 37) if you prefer ‘A’ through ‘F’.
+
+
+
+
+
+Binary --> Dec :
+
+Decimal Digit Value	256	128	64	32	16	8	4	2	1
+Binary Digit Value	1	0	1	1	0	0	1	0	1
