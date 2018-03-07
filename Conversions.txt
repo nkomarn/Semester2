@@ -33,21 +33,14 @@ The answer is C9
 
 Dec--> Bianary :
 To convert decimal to binary is also very simple, you simply divide the decimal value by 2 and then write down the remainder. Repeat this process until you cannot divide by 2 anymore, for example let's take the decimal value 157: 
-157 ÷ 2 = 78
-78 ÷ 2 = 39
-39 ÷ 2 = 19
-19 ÷ 2 = 9
-9 ÷ 2 = 4
-4 ÷ 2 = 2
-2 ÷ 2 = 1
-1 ÷ 2 = 0	with a remainder of 1
-with a remainder of 0
-with a remainder of 1
-with a remainder of 1
-with a remainder of 1
-with a remainder of 0
-with a remainder of 0
-with a remainder of 1	<--- to convert write this remainder first.
+157 ÷ 2 = 78 with a remainder of 1
+78 ÷ 2 = 39 with a remainder of 0
+39 ÷ 2 = 19 with a remainder of 1
+19 ÷ 2 = 9 with a remainder of 1
+9 ÷ 2 = 4 with a remainder of 1
+4 ÷ 2 = 2 with a remainder of 0
+2 ÷ 2 = 1 with a remainder of 0
+1 ÷ 2 = 0	with a remainder of 1 <--- to convert write this remainder first.
 Next, write down the value of the remainders from bottom to top (in other words write down the bottom remainder first and work your way up the list) which gives: 
 10011101 = 157
 
