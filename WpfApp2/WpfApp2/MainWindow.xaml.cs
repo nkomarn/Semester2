@@ -51,9 +51,16 @@ namespace WpfApp2
         {
             while (on)
             {
-                Process runCMD = new Process();
-                Process.Start("cmd.exe", @"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2017\Visual Studio Tools");
+                
+                ProcessStartInfo startInfo = new ProcessStartInfo();
+                startInfo.FileName = @"C:\Windows\System32\cmd.exe";
+                
+                //startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+                Process proc = new Process();
+                proc.StartInfo = startInfo;
+                proc.Start();
                 // // // // // // // // / // /System.Threading.Thread.Sleep(1);
+
             }
         }
 

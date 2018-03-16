@@ -8,7 +8,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Button Content="Start" HorizontalAlignment="Left" Margin="210,107,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click"/>
-        <Button Content="Stop" HorizontalAlignment="Left" Margin="210,147,0,0" VerticalAlignment="Top" Width="76"/>
+        <Button Content="Stop" HorizontalAlignment="Left" Margin="210,147,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_1"/>
 
     </Grid>
 </Window>
