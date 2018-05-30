@@ -13,10 +13,6 @@
 
     <style type="text/css">
     	
-
-
-
-
     </style>
 	</head>
 	<body>
@@ -26,7 +22,6 @@
 					switch (strlen($_GET['vm'])) {
 						case 0:
 							echo "<h1>Virtual Machine Management</h1>";
-
 							#windows 7
 							echo "
 							<a href='/?vm=Windows 7'>
@@ -38,9 +33,42 @@
 								</div>
 							</a>
 							";
+							#windows XP
+							echo "
+							<a href='/?vm=Windows XP'>
+								<div>
+									<img src='/img/Windows XP.png'>
+									<div>
+										<h5>Windows XP</h5>
+									</div>
+								</div>
+							</a>
+							";
+							#macOS High Sierra
+							echo "
+							<a href='/?vm=macOS High Sierra'>
+								<div>
+									<img src='/img/macOS High Sierra.png'>
+									<div>
+										<h5>macOS High Sierra</h5>
+									</div>
+								</div>
+							</a>
+							";
+							#windows 95
+							echo "
+							<a href='/?vm=Windows 95'>
+								<div>
+									<img src='/img/Windows 95.png'>
+									<div>
+										<h5>Windows 95</h5>
+									</div>
+								</div>
+							</a>
+							";
 							break;
 						case 'Windows 7':
-
+							
 							break;
 						case 'Windows XP':
 							
@@ -52,11 +80,53 @@
 
 							break;
 						default:
-							
+							echo "<h1>Virtual Machine Management</h1>";
+							#windows 7
+							echo "
+							<a href='/?vm=Windows 7'>
+								<div>
+									<img src='/img/Windows 7.png'>
+									<div>
+										<h5>Windows 7</h5>
+									</div>
+								</div>
+							</a>
+							";
+							#windows XP
+							echo "
+							<a href='/?vm=Windows XP'>
+								<div>
+									<img src='/img/Windows XP.png'>
+									<div>
+										<h5>Windows XP</h5>
+									</div>
+								</div>
+							</a>
+							";
+							#macOS High Sierra
+							echo "
+							<a href='/?vm=macOS High Sierra'>
+								<div>
+									<img src='/img/macOS High Sierra.png'>
+									<div>
+										<h5>macOS High Sierra</h5>
+									</div>
+								</div>
+							</a>
+							";
+							#windows 95
+							echo "
+							<a href='/?vm=Windows 95'>
+								<div>
+									<img src='/img/Windows 95.png'>
+									<div>
+										<h5>Windows 95</h5>
+									</div>
+								</div>
+							</a>
+							";
 							break;
 					}
-
-
 				?>
 			</div>
 		</div>
