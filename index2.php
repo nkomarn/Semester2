@@ -151,7 +151,7 @@
 								<input type='submit' name='button-restart'>Reset</input>
 							</form>
 							";
-							if(isset($_POST('button-start'))){
+							if(null !== ($_POST('button-start'))){
 								$output = shell_exec('VBoxManage startvm "Windows 7"');
                             	echo "<pre>$output</pre>";
 							}
