@@ -12,23 +12,97 @@
 
 
     <style type="text/css">
-    	
+    	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+    	.text-card{
+    		font-family: 'Indie Flower', cursive;
+    		color: black;
+    	}
+    	.image-card{
+    		height: 100px;
+    		width: 150px;
+    		margin: 2px;
+    		border: 1px;
+    		border-radius: 3px;
+    		overflow: hidden;
+    		box-shadow: 0px 5px 15px rgb(209, 224, 224);
+    		transition: box-shadow 5s ease, transform 5s ease;
+
+    	}
+    	.image-card:hover{
+    		box-shadow: 5px 10px 20px rgb(209, 224, 224);
+    	}
+    	.input-start{
+    		font-family: 'Indie Flower', cursive;
+    		color: green;
+    		box-shadow: 0px 2px 6px green;
+    		transition: box-shadow 5s ease, transform 5s ease;
+    	}
+    	.input-start:hover{
+    		box-shadow: 2px 4px 12px green;
+    	}
+    	.input-start:active{
+    		color: black;
+    		box-shadow: 0px 2px 6px black;
+    	}
+
+    	.input-shutdown{
+    		font-family: 'Indie Flower', cursive;
+    		color: red;
+    		box-shadow: 0px 2px 6px red;
+    		transition: box-shadow 5s ease, transform 5s ease;
+    	}
+    	.input-shutdown:hover{
+    		box-shadow: 2px 4px 12px red;
+    	}
+    	.input-shutdown:active{
+    		color: black;
+    		box-shadow: 0px 2px 6px black;
+    	}
+
+    	.input-restart{
+    		font-family: 'Indie Flower', cursive;
+    		color: yellow;
+    		box-shadow: 0px 2px 6px yellow;
+    		transition: box-shadow 5s ease, transform 5s ease;
+    	}
+    	.input-restart:hover{
+    		box-shadow: 2px 4px 12px yellow;
+    	}
+    	.input-restart:active{
+    		color: black;
+    		box-shadow: 0px 2px 6px black;
+    	}
+
+    	.input-reset{
+    		font-family: 'Indie Flower', cursive;
+    		color: blue;
+    		box-shadow: 0px 2px 6px blue;
+    		transition: box-shadow 5s ease, transform 5s ease;
+    	}
+    	.input-reset:hover{
+    		box-shadow: 2px 4px 12px blue;
+    	}
+    	.input-reset:active{
+    		color: black;
+    		box-shadow: 0px 2px 6px black;
+    	}
     </style>
 	</head>
 	<body>
 		<div>
 			<div>
 				<?php
-					switch (strlen($_GET['vm'])) {
-						case 0:
+					
+					switch ($_GET["vm"]) {
+						case "":
 							echo "<h1>Virtual Machine Management</h1>";
 							#windows 7
 							echo "
 							<a href='/?vm=Windows 7'>
 								<div>
-									<img src='/img/Windows 7.png'>
+									<img class='image-card' src='/img/Windows 7.png'>
 									<div>
-										<h5>Windows 7</h5>
+										<h5 class='text-card'>Windows 7</h5>
 									</div>
 								</div>
 							</a>
@@ -37,9 +111,9 @@
 							echo "
 							<a href='/?vm=Windows XP'>
 								<div>
-									<img src='/img/Windows XP.png'>
+									<img class='image-card' src='/img/Windows XP.png'>
 									<div>
-										<h5>Windows XP</h5>
+										<h5 class='text-card'>Windows XP</h5>
 									</div>
 								</div>
 							</a>
@@ -48,9 +122,9 @@
 							echo "
 							<a href='/?vm=macOS High Sierra'>
 								<div>
-									<img src='/img/macOS High Sierra.png'>
+									<img class='image-card' src='/img/macOS High Sierra.png'>
 									<div>
-										<h5>macOS High Sierra</h5>
+										<h5 class='text-card'>macOS High Sierra</h5>
 									</div>
 								</div>
 							</a>
@@ -59,25 +133,37 @@
 							echo "
 							<a href='/?vm=Windows 95'>
 								<div>
-									<img src='/img/Windows 95.png'>
+									<img class='image-card' src='/img/Windows 95.png'>
 									<div>
-										<h5>Windows 95</h5>
+										<h5 class='text-card'>Windows 95</h5>
 									</div>
 								</div>
 							</a>
 							";
 							break;
-						case 'Windows 7':
+						case "Windows 7":
+							echo "<h1>Welcome to Windows 7</h1>";
+							echo "
+							<form action='' method='POST'>
+								<input type='submit' name='button-start'>Start</input>
+								<input type='submit' name='button-shutdown'>Shutdown</input>
+								<input type='submit' name='button-restart'>Restart</input>
+								<input type='submit' name='button-restart'>Reset</input>
+							</form>
+							";
+							if(isset($_POST('button-start')))}{
+								$output = shell_exec('VBoxManage startvm "Windows 7"');
+                            	echo "<pre>$output</pre>";
+							}
+							break;
+						case "Windows XP":
 							
 							break;
-						case 'Windows XP':
+						case "macOS High Sierra":
 							
 							break;
-						case 'macOS High Sierra':
-							
-							break;
-						case 'Windows 95':
-
+						case "Windows 95"
+						:
 							break;
 						default:
 							echo "<h1>Virtual Machine Management</h1>";
@@ -85,9 +171,9 @@
 							echo "
 							<a href='/?vm=Windows 7'>
 								<div>
-									<img src='/img/Windows 7.png'>
+									<img class='image-card' src='/img/Windows 7.png'>
 									<div>
-										<h5>Windows 7</h5>
+										<h5 class='text-card'>Windows 7</h5>
 									</div>
 								</div>
 							</a>
@@ -96,9 +182,9 @@
 							echo "
 							<a href='/?vm=Windows XP'>
 								<div>
-									<img src='/img/Windows XP.png'>
+									<img class='image-card' src='/img/Windows XP.png'>
 									<div>
-										<h5>Windows XP</h5>
+										<h5 class='text-card'>Windows XP</h5>
 									</div>
 								</div>
 							</a>
@@ -107,9 +193,9 @@
 							echo "
 							<a href='/?vm=macOS High Sierra'>
 								<div>
-									<img src='/img/macOS High Sierra.png'>
+									<img class='image-card' src='/img/macOS High Sierra.png'>
 									<div>
-										<h5>macOS High Sierra</h5>
+										<h5 class='text-card'>macOS High Sierra</h5>
 									</div>
 								</div>
 							</a>
@@ -118,15 +204,16 @@
 							echo "
 							<a href='/?vm=Windows 95'>
 								<div>
-									<img src='/img/Windows 95.png'>
+									<img class='image-card' src='/img/Windows 95.png'>
 									<div>
-										<h5>Windows 95</h5>
+										<h5 class='text-card'>Windows 95</h5>
 									</div>
 								</div>
 							</a>
 							";
 							break;
 					}
+				
 				?>
 			</div>
 		</div>
